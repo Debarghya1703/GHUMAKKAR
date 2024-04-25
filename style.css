@@ -1,0 +1,460 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: whitesmoke!important;
+    overflow-x: hidden!important;
+}
+.botm {
+  
+  height: 100px;
+  position: fixed!important;
+  background-color: white!important;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.botm:hover {
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 8px 20px; 
+}
+
+#navbarCollapse{
+  position: absolute!important;
+ text-align: center!important;
+ justify-content: center!important;
+ font-size: 18px!important;
+ font-family: "Century Gothic", sans-serif!important;
+ margin-left: auto!important;
+ /* margin-left: -25px!important; */
+}
+.nav-item-margin {
+  margin-left: 50px!important;
+}
+.btn {
+  font-family: "Century Gothic", sans-serif!important;
+    font-size: 18px!important;
+    background: transparent;
+    border: none;
+    padding: 1em 1.5em;
+    color: rgb(122,182,48)!important;
+    text-transform: uppercase;
+    position: relative;
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+  
+  .btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: rgb(122,182,48)!important;
+    transition: 0.5s ease;
+  }
+  
+  .btn:hover {
+    color: white!important;
+    transition-delay: 0.5s;
+  }
+  
+  .btn:hover::before {
+    width: 100%;
+  }
+  
+  .btn::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background-color: rgb(122,182,48)!important;
+    transition: 0.4s ease;
+    z-index: -1;
+  }
+  
+  .btn:hover::after {
+    height: 100%;
+    transition-delay: 0.4s;
+    color: white!important;
+  }
+  .btn {
+font-size: 17px;
+background: transparent;
+border: none;
+padding: 1em 1em;
+position: relative;
+transition: 0.3s;
+cursor: pointer;
+}
+
+.btn::before {
+content: "";
+position: absolute;
+left: 0;
+bottom: 0;
+height: 2px;
+width: 0;
+background-color: rgb(122,182,48)!important;
+transition: 0.3s ;
+}
+.btn:hover::before {
+width: 100%;
+} 
+
+.slider{
+    
+    margin-top: -50px!important;
+    height: 875px!important;
+    width: 100%;
+    background-color: white;
+    
+}
+.carousel-caption h1 {
+    font-family: Candara, sans-serif!important;
+    font-size: 58px!important;
+  }
+  .carousel-caption p{
+    font-family: "Century Gothic", sans-serif!important;
+    font-size: 20px!important;
+  }
+.head{
+    text-align: center;
+    justify-content: center;
+    margin-top: 550px!important;
+}
+
+#instagram:hover,
+#facebook:hover,
+#twitter:hover,
+#linkedin:hover,
+#youtube:hover {
+    color: darkgreen;
+}
+.nav1 a {
+    font-size: 17px;
+}
+.navbar-nav .nav-link:hover {
+    color: rgb(122, 182, 48) !important;
+    transition-delay: 5ms!important;
+}
+#mail:hover,
+#phone:hover{
+color: darkgreen;
+}
+
+.carousel-inner img.slider1{
+    width: 100%;
+    height: auto;
+}
+.slider1{
+    filter: brightness(50%);
+}
+.slider2{
+    filter: brightness(50%);
+}
+.slider3{
+    filter: brightness(50%);
+}
+.slider4{
+    filter: brightness(50%);
+}
+.slider5{
+    filter: brightness(50%);
+}
+.carousel-caption {
+    position: absolute!important;
+    top: 50%!important;
+    transform: translate(-15%, -15%)!important;
+    text-align: center!important;
+     justify-content: center!important; 
+    width: 100%!important;
+}
+.btn-primary {
+    background-color: rgb(122, 182, 48)!important;
+    border-color: rgb(122, 182, 48)!important;
+    color: white!important;
+    border-radius: 0!important;
+}
+
+.btn-primary:hover {
+    background-color: #96c82b!important; 
+    border-color: #96c82b!important;
+    color: white!important;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    top: 25%;
+    transform: translateY(25%);
+}
+.carousel-control-prev {
+    left: 1;
+}
+.carousel-control-next {
+    right: 1;
+}
+.carousel-item img {
+    width: 100%!important;
+}
+.features .col-md-4 {
+    display: flex;
+    align-items: center;
+  }
+  .features .col-md-4 h4 {
+    margin-left: 10px; 
+  }
+  .pricing-paragraph {
+    margin-top: 10px; 
+  }
+ 
+.boxes {
+    transition: background-color 0.5s ease, box-shadow 0.5s ease, color 0.5s ease!important;
+  }
+  
+  .boxes:hover {
+    background-color: rgb(122, 182, 48)!important;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px!important;
+    transform: translateY(-5px)!important;
+    color: white!important;
+  }
+  
+  .boxes:hover i {
+    color: white!important;
+  }
+  
+.serve:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px!important;
+    transform: translateY(-5px)!important;
+}
+  
+  .serve{
+    transition: box-shadow 0.5s ease; 
+  }
+  .boxes {
+    transition: box-shadow 0.5s ease, background-color 0.3s ease;
+  }
+  
+  .tour .bg-white {
+    transition: box-shadow 0.5s ease, transform 0.5s ease-in-out!important;
+  }
+  
+  .tour .bg-white:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transform: translateY(-5px)!important; 
+  }
+
+  .tour .col-md-4,
+  .tour .col-sm-6 {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .tour .bg-white {
+    position: relative;
+    z-index: 0;
+  }
+  .tour{
+    font-family: "Century Gothic", sans-serif!important;
+  }
+  .h5.text-decoration-none {
+    font-weight: 540!important;  }
+  
+  .card{
+    transition: box-shadow 0.3s ease, transform 0.3s ease-in-out!important;
+  }
+  
+  .card:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transform: translateY(-5px)!important; 
+  }
+
+  .card .col-md-4,
+  .card .col-sm-6 {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .card{
+    position: relative;
+    z-index: 0;
+  }
+  .footer{
+    background-color: rgb(33,33,33);
+    height: 550px!important;
+  }
+  .card-text{
+    font-family: "Century Gothic", sans-serif!important;
+  }
+  
+  .newsletter-box {
+    padding:0px;
+    margin-top: 0px;
+    border-radius: 0px!important; /* Adjusted border-radius */
+   
+}
+
+.newsletter-box h5 {
+    margin-bottom: 10px!important;
+}
+
+.newsletter-box input[type="text"] {
+    border-radius: 0px!important;
+    width: 5px!important;
+}
+.contact{
+    margin-left: -50px!important;
+}
+.newsletter-box{
+    margin-top: 5px!important;
+}
+.input-group{
+    border-radius: 0px!important;
+}
+.slider-about{
+  
+  margin-top: -50px;
+  height: 600px;
+  width: 100%!important;
+  background-color: white;
+}
+.btn-outline-primary.btn-square:hover {
+  background-color: transparent !important;
+}
+.btn-outline-primary.btn-square:hover {
+  background-color: rgb(122,182,48) !important;
+  border-color: rgb(122,182,48) !important;
+  color: white !important; /* Optionally, change text color to white */
+}
+.destination-item img {
+  filter: brightness(70%);
+  transition: .5s;
+}
+
+.destination-item:hover img {
+  filter: brightness(100%);
+  transform: scale(1.3);
+}
+.destination-overlay {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transition: .5s;
+  z-index: 1;
+}
+.btn-primary {
+  transition: background-color 0.1s ease-in-out, border-color 0.1s ease-in-out, color 0.1s ease-in-out !important;
+}
+
+
+/* Reseting */
+
+body {
+    background: whitesmoke!important;
+    height: 100%!important;
+}
+
+.owl-carousel .owl-item {
+    transition: all 0.3s ease-in-out;
+}
+
+.owl-carousel .owl-item .card {
+    padding: 30px;
+    position: relative;
+    height: 400px!important;
+    width: 270px!important;
+    font-family: Century Gothic, sans-serif;
+    font-size: medium!important;
+}
+
+.owl-carousel .owl-stage-outer {
+    overflow-y: auto !important;
+    padding-bottom: 40px;
+}
+
+.owl-carousel .owl-item img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.owl-carousel .owl-item .card .name {
+    position: absolute!important;
+    text-align: center!important;
+    justify-content: center!important;
+    bottom: -20px;
+    left: 75px!important;
+    color: whitesmoke!important;
+    font-size: 1.1rem;
+    background-color: rgb(122,182,48)!important;
+    padding: 0.3rem 0.4rem;
+    border-radius: 5px!important;
+    box-shadow: 2px 3px 15px grey!important;
+}
+
+.owl-carousel .owl-item .card {
+    opacity: 0.2;
+    transform: scale3d(0.8, 0.8, 0.8);
+    transition: all 0.3s ease-in-out;
+}
+
+.owl-carousel .owl-item.active.center .card {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+}
+
+.owl-carousel .owl-dots {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    height: 20px;
+    background: rgb(188, 241, 123)!important;
+    border-radius: 2px !important;
+    opacity: 0.8;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    height: 13px;
+    width: 13px;
+    opacity: 1;
+    transform: translateY(2px);
+    background: rgb(122,182,48)!important;
+}
+
+input:focus,textarea:focus, input.form-control:focus textarea.form-control:focus {
+
+  outline:none !important;
+  outline-width: 5px!important;
+  box-shadow: none!important;
+  -moz-box-shadow: none!important;
+  -webkit-box-shadow: none!important;
+  border-color: #96c82b!important;
+}
+button:active {
+  outline: none!important; 
+  border-color: transparent!important; 
+  
+}
+.dropdown-item.travel-guide:hover,
+.dropdown-item.travel-guide:focus {
+    background-color: #96c82b !important;
+  
+}
+.dropdown-menu.travel-guide-menu {
+  background-color: white !important;
+}
+#contact-form{
+  border-radius: 0px!important;
+}
+
